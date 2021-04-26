@@ -1,25 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import { ChainExample } from './Components/USE_SPRING_HOOK';
+import { Scroll } from './Components/Scroll_animation';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  // return (
+  //   <div style={{ backgroundColor : '#4f3c3a', height : '100vh' }} >
+  //       <ChainExample />
+  //   </div>
+  // );
+  return <Scroll />
 }
 
 export default App;
